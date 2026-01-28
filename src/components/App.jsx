@@ -17,6 +17,8 @@ class App extends Component {
     this.setState({
       [name]: value,
     });
+
+    console.log(event.target.value);
   };
 
   handleSubmit = event => {
