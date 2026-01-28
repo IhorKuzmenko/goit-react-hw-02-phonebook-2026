@@ -1,0 +1,17 @@
+.contactName {
+  text-transform: capitalize;
+}
+
+.filterContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  margin: 15px;
+}
+
+.contactList {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
